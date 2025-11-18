@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+    int n, a = 0, b = 1, c, i;
+
+    printf("Enter how many terms: ");
+    scanf("%d", &n);
+
+    printf("%d %d ", a, b);   // First two terms
+
+    for(i = 3; i <= n; i++) {
+        c = a + b;
+        printf("%d ", c);
+        a = b;
+        b = c;
+    }
+
+    return 0;
+}
