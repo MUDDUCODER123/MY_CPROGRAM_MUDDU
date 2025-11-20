@@ -6,6 +6,6 @@ int main(){
     scanf("%s",goapl);
     strcat(goapl,"goapl");
     printf("before concat %s",goapl);
-    strcat(goapl,"leagend");
-    printf("after concat%s\n","leagend");
+    strcat(goapl,"leaend");
+    printf("after concat%s\n","leaend");
 }
